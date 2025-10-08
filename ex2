@@ -1,0 +1,17 @@
+// ex2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+	double a;
+	double b;
+	scanf_s("%lf", &a);
+	scanf_s("%lf", &b);
+	double y = (abs(2 * a + pow(b, 3)), fabs(sqrt(8)));
+	printf("%lf", y);
+}
+
