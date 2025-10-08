@@ -4,7 +4,9 @@
 
 int main()
 {
-    double x = scanf_s("%lf", &x);
+    double x ;
+    scanf_s("%lf", &x);
     double y = (5 - pow(x, 5) / 3) - x + 1;
     printf_s("%lf", y);
 }
+
